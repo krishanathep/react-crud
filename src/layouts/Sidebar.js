@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <div>
       <aside className="main-sidebar sidebar-dark-primary elevation-4">
-        <a href="#" className="brand-link">
+        <a href="link" className="brand-link">
           <img
             src="assets/dist/img/AdminLTELogo.png"
             alt="AdminLTE Logo"
@@ -19,11 +19,11 @@ const Sidebar = () => {
               <img
                 src="assets/dist/img/user2-160x160.jpg"
                 className="img-circle elevation-2"
-                alt="User Image"
+                alt=""
               />
             </div>
             <div className="info">
-              <a href="#" className="d-block">
+              <a href="link" className="d-block">
                 Alexander Pierce
               </a>
             </div>
@@ -51,7 +51,7 @@ const Sidebar = () => {
               data-accordion="false"
             >
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="link" className="nav-link">
                   <i className="nav-icon fas fa-tachometer-alt" />
                   <p>
                     Dashboard
@@ -89,7 +89,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="link" className="nav-link">
                   <i className="nav-icon fas fa-copy" />
                   <p>
                     Layout Options
@@ -160,7 +160,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="link" className="nav-link">
                   <i className="nav-icon fas fa-chart-pie" />
                   <p>
                     Charts
@@ -195,7 +195,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="link" className="nav-link">
                   <i className="nav-icon fas fa-tree" />
                   <p>
                     UI Elements
@@ -254,7 +254,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="link" className="nav-link">
                   <i className="nav-icon fas fa-edit" />
                   <p>
                     Forms
@@ -289,7 +289,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link">
+                <a href="link" className="nav-link">
                   <i className="nav-icon fas fa-table" />
                   <p>
                     Tables
