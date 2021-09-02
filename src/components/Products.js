@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react'
 
-const Dashboard = () => {
-  return (
-    <div className="content-wrapper">
+const Products = () => {
+    return (
+        <div className="content-wrapper">
       <section className="content-header">
         <div className="container-fluid">
           <div className="row mb-2">
@@ -44,13 +44,28 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="card-body">
-            Start creating your amazing application!
+          <table className="table table-bordered">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Size</th>
+                  <th>Path</th>
+                  <th>Status</th>
+                  <th>Create date</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+              </tbody>
+            </table>
           </div>
-          <div className="card-footer">Footer</div>
+         
         </div>
       </section>
     </div>
-  );
-};
+    )
+}
 
-export default Dashboard;
+export default Products
