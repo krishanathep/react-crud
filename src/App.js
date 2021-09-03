@@ -3,7 +3,6 @@ import Sidebar from "./layouts/Sidebar";
 import Footer from "./layouts/Footer";
 import Dashboard from "./components/Dashboard";
 import Photos from "./components/Photos";
-import Products from "./components/Products";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -19,9 +18,6 @@ function App() {
         </Route>
         <Route path="/photos">
           <Photos />
-        </Route>
-        <Route path="/products">
-          <Products />
         </Route>
       </Switch>
       <Footer />

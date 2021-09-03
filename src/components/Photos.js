@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 const Photos = () => {
   const [photos, setPhotos] = useState([]);
-  const [loading, setLoading] = useState(false);
+  //const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const getData = async () => {
@@ -18,7 +18,7 @@ const Photos = () => {
       console.log(error);
       setError(error)
     } finally {
-      setLoading(false);
+     // setLoading(false);
     }
   };
 
